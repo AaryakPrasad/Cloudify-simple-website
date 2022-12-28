@@ -1,0 +1,85 @@
+
+body{
+    background-color: #22262c;
+    font-family: "Nunito",sans-serif;
+    color: #f5d9df;
+}
+#mainNav{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNav .navbar-brand{
+    color: #ea1c2c;
+    transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#mainNav .nav-link{
+    color: #f5d9df;
+}
+#mainNav .nav-link:hover{
+    color: #ea1c2c;
+}
+
+
+#mainNav .btn-primary{
+    background-color: #f5d9df !important;
+    border: #f5d9df !important;
+    color: #22262c !important;
+}
+#mainNav .btn-outline-primary{
+    border-color: #f5d9df  !important;
+    color: #f5d9df !important;  
+}
+#mainNav .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+    color: #ea1c2c !important;
+    background-color: #212020 !important;
+}
+
+#mainNav .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited{
+    color: #ea1c2c !important;
+    background-color: #212020 !important;
+    border-color: #212020 !important;
+}
+
+#mainNav .navbar-brand:hover{
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#headingGroup span{
+    color: #ea1c2c;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4em;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1{
+    font-size: 3.4em;  
+    }  
+    #mainNav{
+        font-size: 1rem;
+    }
+}
+.blurb h2{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+     color: #bc1e4a;
+     font-weight:100;
+     font-size: 1.125rem;
+     line-height: 2;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled{
+    background: #212020;
+    transition: background 200ms ease-in;
+}
